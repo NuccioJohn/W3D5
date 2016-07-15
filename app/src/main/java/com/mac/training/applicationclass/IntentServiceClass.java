@@ -17,7 +17,7 @@ public class IntentServiceClass extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        ApplicationApp.attr++;
-        Log.d(TAG, "onHandleIntent: ApplicationApp" + ApplicationApp.attr);
+//        ApplicationApp.attr++;
+//        Log.d(TAG, "onHandleIntent: ApplicationApp" + ApplicationApp.attr);
     }
 }
