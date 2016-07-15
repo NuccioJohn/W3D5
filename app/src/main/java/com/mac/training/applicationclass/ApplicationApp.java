@@ -8,11 +8,13 @@ import android.util.Log;
  */
 public class ApplicationApp extends Application {
 
-    private static final String TAG = "AppAp";
+    private static final String TAG = "ApplicationApp";
+    public static int attr = 0;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.d(TAG, "onCreate: ");
+        Log.d(TAG, "onCreate: 0, App attr: " + attr);
+        attr++;
     }
 }
