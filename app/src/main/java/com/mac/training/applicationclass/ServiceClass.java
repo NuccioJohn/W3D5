@@ -20,7 +20,7 @@ public class ServiceClass extends Service{
     public void onCreate() {
         super.onCreate();
         ApplicationApp.attr++;
-        Log.d(TAG, "onCreate: ApplicationApp" + ApplicationApp.attr);
+        Log.d(TAG, "onCreate: ApplicationApp" + ApplicationApp.attr + " " + Thread.currentThread().getName());
     }
 
     @Override

@@ -14,7 +14,7 @@ public class ApplicationApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.d(TAG, "onCreate: 0, App attr: " + attr);
+        Log.d(TAG, "onCreate: 0, App attr: " + attr + " " + Thread.currentThread().getName());
         attr++;
     }
 }
